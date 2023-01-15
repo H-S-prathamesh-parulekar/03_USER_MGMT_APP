@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: pratham
+    url: jdbc:h2:mem:testdb
+    username: pratham
+  jpa:
+   hibernate:
+    ddl-auto: update
+   Show-sql: true
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+    host: smtp.gmail.com
+    username: testprathamesh123@gmail.com
+    password: 24081990@Php
+    port: '587'
